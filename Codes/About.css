@@ -1,0 +1,92 @@
+*
+body
+{
+  margin:0 auto;
+  overflow-x: hidden;
+  background: rgb(33, 46, 71)
+}
+.menu-bar
+{
+    background: rgb(26, 24, 24);
+    text-align: left;
+    padding: 02px 20px;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 01px;
+    border-top-right-radius: 01px;
+    border-bottom-right-radius: 80px;
+}
+.menu-bar ul
+{
+  display: flex;
+  list-style: none;
+  color: rgb(246, 255, 253);
+  font-size: 15px;
+  letter-spacing: 01px;
+}
+.menu-bar ul li
+{
+  width: 120px;
+  margin: 05px;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.menu-bar ul li a
+{
+  text-decoration: none;
+  color:rgb(244, 250, 242);
+}
+.active, .menu-bar ul li a:hover
+{
+  color:rgb(93, 139, 0);
+}
+.Vission
+{
+  background: #bcddd8;
+    text-align: left;
+    padding: 03px 30px;
+    border-radius: 15px;
+    color:rgb(11, 11, 11);
+}
+.reg
+{
+  text-align: right;
+  padding: 03px 1300px;
+}
+.reg ul
+{
+  display: flex;
+  list-style: none;
+  color: rgb(15, 86, 71);
+  font-size: 13px;
+  letter-spacing: 01px;
+}
+.reg ul li
+{
+  width: 60px;
+  margin: 03px;
+  padding: 12.5px;
+  background: #000000;
+  border-radius: 25px;
+  font-size: 12px;
+}
+.reg ul li a
+{
+  text-decoration: none;
+  color: rgb(252, 254, 255);
+}
+.reg ul li a:hover
+{
+ color:rgb(14, 146, 14);
+}
+
+.end1
+{
+  background: rgb(26, 24, 24);
+  text-align: center;
+  color: white;
+  padding: 01px 20px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 0px;
+}
